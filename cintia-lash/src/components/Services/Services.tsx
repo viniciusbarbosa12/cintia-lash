@@ -21,6 +21,11 @@ const services = [
     title: "Remoção",
     description: "Remoção segura e profissional das extensões.",
   },
+  {
+    title: "Lash Lifting",
+    description:
+      "Curvatura natural dos cílios sem extensão, realçando o olhar com seus próprios fios.",
+  },
 ];
 
 const Services = () => {
