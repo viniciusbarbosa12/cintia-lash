@@ -18,23 +18,25 @@ const Gallery = () => {
   };
 
   return (
-    <section className="gallery">
-      <h2>Trabalhos Recentes</h2>
-      <Slider {...settings}>
-        <div>
-          <img src={trabalho1} alt="Trabalho 1" />
-        </div>
-        <div>
-          <img src={trabalho2} alt="Trabalho 2" />
-        </div>
-        <div>
-          <img src={trabalho3} alt="Trabalho 3" />
-        </div>
-        <div>
-          <img src={trabalho4} alt="Trabalho 4" />
-        </div>
-      </Slider>
-    </section>
+    <div className="container">
+      <div className="gallery">
+        <h2>Trabalhos Recentes</h2>
+        <Slider {...settings}>
+          <div>
+            <img src={trabalho1} alt="Trabalho 1" />
+          </div>
+          <div>
+            <img src={trabalho2} alt="Trabalho 2" />
+          </div>
+          <div>
+            <img src={trabalho3} alt="Trabalho 3" />
+          </div>
+          <div>
+            <img src={trabalho4} alt="Trabalho 4" />
+          </div>
+        </Slider>
+      </div>
+    </div>
   );
 };
 

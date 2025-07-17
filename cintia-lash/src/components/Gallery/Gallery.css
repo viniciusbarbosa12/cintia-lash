@@ -1,34 +1,41 @@
+/* Importa os estilos do carrossel */
 @import "../../../node_modules/slick-carousel/slick/slick.css";
 @import "../../../node_modules/slick-carousel/slick/slick-theme.css";
 
-.gallery {
+/* Container geral que envolve a galeria */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f5ebea;
   padding: 60px 20px;
-  margin-top: 40px;
-  border-radius: 5px;
-  background-color: #fff;
+}
+
+/* Galeria centralizada com título e carrossel */
+.gallery {
   text-align: center;
-}
-
-.gallery img {
+  max-width: 900px;
   width: 100%;
-  max-width: 500px;
-  height: 400px;
-  object-fit: cover;
-  border-radius: 12px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  margin: 0 auto;
+  background-color: #ffffff;
+  padding: 40px 20px;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
 }
 
+/* Título da galeria */
 .gallery h2 {
   color: #5e4625;
   font-size: 1.8rem;
   margin-bottom: 30px;
 }
 
+/* Imagens do carrossel */
 .gallery img {
   width: 100%;
   max-width: 600px;
-  margin: 0 auto;
+  height: 400px;
+  object-fit: cover;
   border-radius: 12px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin: 0 auto;
 }
