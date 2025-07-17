@@ -1,0 +1,27 @@
+.footer {
+  background-color: #f5ebea;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.footer p {
+  margin-bottom: 12px;
+  font-size: 1.1rem;
+}
+
+.text-insta {
+  color: black;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #c71585;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-weight: bold;
+  margin-top: 10px;
+  text-decoration: none;
+}
