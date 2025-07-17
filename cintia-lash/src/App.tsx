@@ -5,12 +5,14 @@ import About from "./components/About/About.tsx";
 import Footer from "./components/Footer/Footer.tsx";
 import Gallery from "./components/Gallery/Gallery.tsx";
 import Header from "./components/Header/Header.tsx";
+import Services from "./components/Services/Services.tsx";
 
 function App() {
   return (
     <div>
       <Header />
       <About />
+      <Services />
       <Gallery />
       <Footer />
       <a
